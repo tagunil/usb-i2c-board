@@ -1,4 +1,4 @@
-update=Пт 27 апр 2018 15:34:00
+update=Ср 20 июн 2018 23:11:01
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=usb-i2c.pdf
+PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
