@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.0.0-rc2-dev-737-g584409b2e-dirty)")
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.0-rc2-204-g01c2d93a8)")
 
   (general
     (thickness 1)
@@ -74,7 +74,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -86,7 +86,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory Gerber/))
+      (outputdirectory "Gerber/"))
   )
 
   (net 0 "")
@@ -311,7 +311,7 @@
     (pad 1 thru_hole rect (at 0.021704 -0.016462 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 25 "Net-(J1-Pad1)"))
     (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Horizontal.wrl
-      (at (xyz 0 0 0))
+      (offset (xyz 0 7.62 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
